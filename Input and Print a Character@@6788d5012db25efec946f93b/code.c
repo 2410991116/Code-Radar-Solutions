@@ -1,5 +1,8 @@
 #include <stdio.h>
 
 int main(){
-    printf("hrllo");
+    char a;
+    scanf("%c",&a);
+    printf("You entered: %c",a);
+    
 }
