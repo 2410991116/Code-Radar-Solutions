@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    char c = 'A';
+    char c;
+    scanf("%d",&c);
 
     if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z')) {
         if (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ||
