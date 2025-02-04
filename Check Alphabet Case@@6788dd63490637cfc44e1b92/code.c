@@ -8,6 +8,6 @@ int main(){
     }else if (word>='a'&&word<='z'){
         printf("Lowercase");
     }else{
-        print("Not an alphabet");
+        printf("Not an alphabet");
     }
 }
