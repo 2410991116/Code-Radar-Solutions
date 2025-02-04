@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int  main(){
     char ch;
     scanf("%d",&a);
     if ((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z')){
