@@ -6,5 +6,5 @@ int main(){
     for (int i=1;i<=a;i++){
         b=b+i;
     }
-    printf("%d",b)
+    printf("%d",b);
 }
