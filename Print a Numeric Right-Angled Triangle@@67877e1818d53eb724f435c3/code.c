@@ -7,7 +7,7 @@ int main(){
     while (i<a){
         j=0;
         while (j<i){
-            printf("* ");
+            printf("%d",j);
             j++;
         }
         printf("\n");
