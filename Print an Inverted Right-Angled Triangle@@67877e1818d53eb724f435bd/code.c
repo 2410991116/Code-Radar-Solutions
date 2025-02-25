@@ -1,13 +1,17 @@
 #include <stdio.h>
 
 int main(){
-    int a;
+    int a,i,j;
     scanf("%d",&a);
-    for (int i=a;i>0;i--){
-        for (int j=1;j<=i;j++){
+    i=a;
+    while (i>0){
+        j=0;
+        while (j<i){
             printf("* ");
+            j++;
         }
-        printf("\n");
+        i--;
     }
     return 0;
-}
+
+}    
