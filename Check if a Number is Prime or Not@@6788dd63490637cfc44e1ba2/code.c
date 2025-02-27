@@ -7,7 +7,7 @@ int main(){
         is_prime=0;
     }else{
         for (i=2;i<=num/2;i++){
-            if (num%i==0){
+            if (num/i==0){
                 is_prime=0;
                 break;
             }
