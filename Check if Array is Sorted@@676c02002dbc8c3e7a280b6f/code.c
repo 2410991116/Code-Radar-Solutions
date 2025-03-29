@@ -21,6 +21,6 @@ int main(){
     if (sorted==0){
         printf("Not Sorted");
     }else{
-        printf("Sorted")
+        printf("Sorted");
     }
 }
