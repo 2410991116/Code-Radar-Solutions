@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main(){
     int size,even=0,odd=0;
     scanf("%d",&size);
