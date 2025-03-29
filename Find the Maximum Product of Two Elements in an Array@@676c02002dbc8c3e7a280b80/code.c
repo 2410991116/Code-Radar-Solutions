@@ -20,5 +20,5 @@ int main(){
         }
     }
 
-    printf("%d",product);
+    printf("%d",maxprod);
 }
