@@ -20,6 +20,6 @@ int main(){
     if (peak!=-1){
         printf("%d",arr[peak]);
     }else{
-        printf("-1")
+        printf("-1");
     }
 }
