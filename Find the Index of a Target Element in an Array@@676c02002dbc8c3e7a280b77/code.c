@@ -15,14 +15,9 @@ int main(){
     int sum=0;
     for (int i=0;i<size;i++){
         if (arr[i]==tar){
-            sum=sum+i;
-            break;
+            printf("%d",i);
         }
     }
+    printf("-1");
 
-    if (sum==0){
-        printf("-1");
-    }else{
-        printf("%d",sum);
-    }
 }
