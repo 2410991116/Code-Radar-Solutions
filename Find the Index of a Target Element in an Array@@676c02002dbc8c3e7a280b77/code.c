@@ -16,8 +16,11 @@ int main(){
     for (int i=0;i<size;i++){
         if (arr[i]==tar){
             printf("%d",i);
+            sum=1;
         }
     }
-    printf("-1");
+    if (!sum){
+        printf("%d",sum);
+    }
 
 }
