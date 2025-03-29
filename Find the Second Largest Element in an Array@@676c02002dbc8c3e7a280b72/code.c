@@ -20,9 +20,9 @@ int main(){
         }
     }
 
-    if (secondlargest==-1){
-        printf("-1");
-    }else{
+    if (secondlargest!=-1){
         printf("%d",secondlargest);
+    }else{
+        printf("-1");
     }
 }
