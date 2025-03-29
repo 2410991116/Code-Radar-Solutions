@@ -1,4 +1,4 @@
-#incude <stdio.h>
+#include <stdio.h>
 
 int main(){
     int size,even=0,odd=0;
