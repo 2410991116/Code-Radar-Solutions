@@ -16,7 +16,7 @@ int main() {
     int n = sizeof(arr) / sizeof(arr[0]);
     int k = 2; // Rotate by 2 positions
     
-    printf("Original Array: ");
+    
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
@@ -24,7 +24,7 @@ int main() {
     
     rotateArray(arr, n, k);
     
-    printf("Rotated Array: ");
+    
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
