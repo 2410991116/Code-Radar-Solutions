@@ -23,7 +23,10 @@ int main(){
         }
     }
 
-    if (freq[i]!=0){
-        printf("%d",freq[i]);
+    for (int i=0;i<size;i++){
+        if (freq[i]!=0){
+            printf("%d",freq[i]);
+        }
     }
+    
 }
