@@ -12,11 +12,14 @@ int main(){
     int tar;
     scanf("%d",&tar);
 
+    int sum=0;
     for (int i=0;i<size;i++){
         if (arr[i]==tar){
-            printf("%d",i);
-        }else{
-            printf("-1");
-        }
+            sum=sum+i;
+    }
+    if (sum==0){
+        printf("-1");
+    }else{
+        printf("%d",sum);
     }
 }
