@@ -26,11 +26,9 @@ int main(){
 
     for (int i=0;i<size;i++){
         if (prime(arr[i])){
-            count=count+1;
+           printf("%d ",arr[i]);
         }
     }
-
-    printf("%d",count);
 
 
 
