@@ -21,8 +21,8 @@ int main() {
         }
     }
 
-    if (int i=0;i<size;i++){
-        printf("%d %d",arr[i],freq[i]);
+    for (int i=0;i<size;i++){
+        printf("%d %d\n ",arr[i],freq[i]);
     }
 
 
