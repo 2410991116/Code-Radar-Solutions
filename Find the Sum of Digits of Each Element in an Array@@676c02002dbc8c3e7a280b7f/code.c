@@ -15,6 +15,7 @@ int main(){
         while (num>0){
             totalsum+=num%10;
             num/=10;
+            printf("%d ",totalsum);
         }
     }
     printf("%d ",totalsum);
