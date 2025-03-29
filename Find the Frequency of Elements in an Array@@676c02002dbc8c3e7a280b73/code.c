@@ -2,7 +2,7 @@
 
 int main(){
     int size;
-    scaf("%d",&size);
+    scanf("%d",&size);
 
     int arr[size],freq[size];
     for (int i=0;i<size;i++){
