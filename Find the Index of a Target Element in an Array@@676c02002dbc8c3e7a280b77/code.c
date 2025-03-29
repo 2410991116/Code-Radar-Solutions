@@ -13,7 +13,7 @@ int main(){
     scanf("%d",&tar);
 
     for (int i=0;i<size;i++){
-        if (arr[i]=tar){
+        if (arr[i]==tar){
             printf("%d",i);
         }else{
             printf("-1");
