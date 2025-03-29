@@ -15,7 +15,7 @@ int main(){
         for (int j=i+1;j<size;j++){
             int product=arr[i]*arr[j];
             if (product>maxprod){
-                maxproduct=product;
+                maxprod=product;
             }
         }
     }
