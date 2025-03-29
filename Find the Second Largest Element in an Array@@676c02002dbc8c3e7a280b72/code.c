@@ -9,7 +9,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    int largest=-1;secondlargest=-1;
+    int largest=-1,secondlargest=-1;
 
     for (int i=0;i<size;i++){
         if (arr[i]>largest){
