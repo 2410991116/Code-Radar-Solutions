@@ -23,6 +23,6 @@ int main(){
     if (secondlargest=-1){
         printf("-1");
     }else{
-        printf("%d",secondlargest)
+        printf("%d",secondlargest);
     }
 }
