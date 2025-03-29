@@ -24,8 +24,8 @@
             }
         }
 
-        maxfreq=freq[0];
-        maxarr=arr[0];
+        int maxfreq=freq[0];
+        int maxarr=arr[0];
 
         for (int i=0;i<size;i++){
             if (freq[i]>maxfreq){
