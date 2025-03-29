@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int size,even=0,odd=0;
+    int size,even=0;odd=0;
     scanf("%d",&size);
 
     int arr[size];
@@ -17,5 +17,5 @@ int main(){
         }
     }
     printf("%d ",even);
-    printf("%d",odd);
+    printf("%d",odd)
 }
