@@ -20,7 +20,7 @@ int main(){
         }
     }
     if (!sum){
-        printf("%d",sum);
+        printf("-1");
     }
 
 }
