@@ -12,10 +12,10 @@ int main(){
     int max=arr[0];
 
     for (int i=0;i<size;i++){
-        if(arr[i]>max){
-            max=arr[i];
-            break;
+        if((i==0 || arr[i]>arr[i-1])&&(i==n-1 || arr[i]>arr[i+1])){
+            printf("%d",arr[i]);
+        }else{
+            printf("-1");
         }
     }
-    printf("%d",max);
 }
