@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 int main(){
@@ -7,21 +6,21 @@ int main(){
 
     int arr[size];
     for (int i=0;i<size;i++){
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
     }
 
     int sorted=1;
 
     for (int i=0;i<size;i++){
-        if (arr[i+1]>arr[i]){
+        if (arr[i]>arr[i+1]){
             sorted=0;
             break;
         }
     }
 
-    if (sorted){
-        printf("Sorted");
-    }else{
+    if (sorted==0){
         printf("Not Sorted");
+    }else{
+        printf("Sorted");
     }
 }
