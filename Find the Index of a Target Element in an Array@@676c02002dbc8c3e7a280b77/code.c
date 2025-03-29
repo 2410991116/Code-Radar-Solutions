@@ -17,6 +17,7 @@ int main(){
         if (arr[i]==tar){
             printf("%d",i);
             sum=1;
+            break;
         }
     }
     if (!sum){
