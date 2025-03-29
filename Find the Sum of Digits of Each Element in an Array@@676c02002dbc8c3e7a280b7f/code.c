@@ -11,7 +11,7 @@ int main(){
     int totalsum=0;
 
     for (int i=0;i<size;i++){
-        int num=arr[i]
+        int num=arr[i];
         while (num>0){
             totalsum+=num%10;
             num/=10;
