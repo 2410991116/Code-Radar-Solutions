@@ -12,7 +12,8 @@ int main(){
     int sum=0;
 
     for (int i=0;i<size;i++){
-        printf("%d ",sum+arr[i]);
+        sum=sum+arr[i];
+        printf("%d",sum);
     }
 
    
