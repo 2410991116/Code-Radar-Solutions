@@ -11,9 +11,9 @@ int main(){
 
     for (int i=0;i<size;i++){
         if (arr[i]%2==0){
-            even++;
+            even+=1;
         }else{
-            odd++;
+            odd+=1;
         }
     }
     printf("%d ",even);
