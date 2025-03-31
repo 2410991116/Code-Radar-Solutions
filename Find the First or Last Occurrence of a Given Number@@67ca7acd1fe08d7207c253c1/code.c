@@ -22,6 +22,7 @@ int findOccurrence(int arr[],int n,char mode,int t ){
                 return i; 
             }
         }
-    }
+    }else{
     return -1;
+    }
 }
