@@ -15,6 +15,6 @@ int selectionSort(char str[],int n){
 
 int printArray(char str[],int n){
     for (int i=0;i<n;i++){
-        printf("%c ",str[i]);
+        printf("%c[100] ",str[i]);
     }
 }
