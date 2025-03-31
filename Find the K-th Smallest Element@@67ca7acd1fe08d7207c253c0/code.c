@@ -12,6 +12,6 @@ int kthSmallest(int arr[],int n,int k){
     }
 
     for (int i=0;i<n;i++){
-        printf("%d",arr[k]);
+        printf("%d",arr[i]);
     }
 }
