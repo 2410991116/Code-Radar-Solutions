@@ -12,14 +12,14 @@ int main(){
     int found=0;
 
     for (int i=0;i<size;i++){
-        if (arr[i]>=arr[i+1]){
+        if (arr[i]>arr[i+1]){
             found=1;
         }
     }
 
-    if (!found){
-        printf("Sorted");
-    }else{
+    if (found){
         printf("Not Sorted");
+    }else{
+        printf("Sorted");
     }
 }
