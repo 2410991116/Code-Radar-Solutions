@@ -24,7 +24,7 @@ int main(){
     } 
 
     int max=freq[0];
-    int mux=arr[i];
+    int mux=arr[0];
 
     for (int i=0;i<size;i++){
         if (freq[i]>max){
