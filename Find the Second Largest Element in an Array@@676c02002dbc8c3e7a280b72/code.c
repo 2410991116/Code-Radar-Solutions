@@ -46,7 +46,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    bubblesort(arr, size);
+    bubblesort(arr[], size);
 
     printf("%d",arr[size-1]);
     
