@@ -18,9 +18,6 @@ int main(){
             break;
         }
     }
-
-    if (!peak){
-        printf("-1");
-    }
+    printf("-1");
 
 }
