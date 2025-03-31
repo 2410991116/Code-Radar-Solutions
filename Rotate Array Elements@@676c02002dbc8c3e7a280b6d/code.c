@@ -9,6 +9,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
+    int k;
+    scanf("%d",&k);
+
     for (int i=0;i<k;i++){
         int temp=arr[0];
         for (int j=0;j<n-1;j++){
