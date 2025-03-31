@@ -24,11 +24,16 @@ int main(){
     } 
 
     int max=freq[0];
+    int mux=arr[i];
+
     for (int i=0;i<size;i++){
         if (freq[i]>max){
-            printf("%d",arr[i]);
+           max=freq[i];
+           mux=arr[i];
         }
     }
+
+    printf("%d",mux);
     
 
 
