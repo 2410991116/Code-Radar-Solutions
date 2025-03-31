@@ -16,7 +16,9 @@ int main(){
     int size;
     scanf("%d",&size);
 
-    if ()
+    if (size<2){
+        printf("-1");
+    }
 
     int arr[size];
     for (int i=0;i<size;i++){
