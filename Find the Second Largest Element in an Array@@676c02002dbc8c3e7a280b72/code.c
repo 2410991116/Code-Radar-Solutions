@@ -25,7 +25,7 @@ int main(){
         printf("-1");
     }
 
-    bubblr(arr,size)
+    bubble(arr,size);
 
     int largest=arr[size-1];
     int second=-1;
