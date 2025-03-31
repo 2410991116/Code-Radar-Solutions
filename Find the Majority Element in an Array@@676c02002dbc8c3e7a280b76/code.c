@@ -23,7 +23,7 @@ int main(){
         }
     } 
 
-    max=freq[0];
+    int max=freq[0];
     for (int i=0;i<size;i++){
         if (freq[i]>max){
             printf("%d",arr[i]);
