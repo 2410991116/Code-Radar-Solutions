@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int size,peak=-1;
+    int size;
     scanf("%d",&size);
 
     int arr[size];
@@ -9,16 +9,11 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
+    int peak=-1;
+
     for (int i=0;i<size;i++){
-        if ((i==0 || arr[i]>arr[i-1])&&(i==size-1 || arr[i]>arr[i+1])){
-            peak=i;
-            break;
+        if ((i==0 || arr[i]>=arr[i-1])&&(i==n-1 || arr[i]>=arr[i+1])){
+            printf("%d",i);
         }
     }
-    if (peak!=-1){
-        printf("%d",arr[peak]);
-    }else{
-        printf("-1");
-    }
-
 }
