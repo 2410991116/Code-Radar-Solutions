@@ -28,7 +28,7 @@ int main() {
     }
 
     if (secondLargest != -1) {
-        printf(" %d", secondLargest);
+        printf("%d", secondLargest);
     } else {
         printf("-1\n"); // No second largest element found
     }
