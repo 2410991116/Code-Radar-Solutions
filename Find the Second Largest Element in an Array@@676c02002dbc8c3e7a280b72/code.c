@@ -48,13 +48,7 @@ int main() {
 
     bubblesort(arr, size);
 
+    printf("%d",arr[size-1]);
     
-   if (size > 1) {
-        printf("%d\n", arr[size - 2]); 
-    } else {
-        printf("Array must have at least two elements.\n");
-    }
-
-    return 0;
 }
 }
