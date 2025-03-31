@@ -21,9 +21,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    if (size<=1){
-        printf("-1");
-    }
+    
 
     bubble(arr,size);
 
