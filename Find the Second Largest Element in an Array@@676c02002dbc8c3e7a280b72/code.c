@@ -25,6 +25,6 @@ int main(){
 
     
 
-    printf("%d",arr[size-1]);
+    printf("%d",arr[size-2]);
     
 }
