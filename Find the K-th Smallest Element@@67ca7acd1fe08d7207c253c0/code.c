@@ -1,5 +1,15 @@
 #include <stdio.h>
 
+int small(int arr[],int n,int k){
+    if (k>n){
+        return -1;
+    }else{
+        for (int i=0;i<n;i++){
+            return ("%d",arr[k-1]);
+        }
+    }
+}
+
 int kthSmallest(int arr[],int n,int k){
     for (int i=0;i<n-1;i++){
         for (int j=0;j<n-i-1;j++){
@@ -14,12 +24,3 @@ int kthSmallest(int arr[],int n,int k){
     return small(arr,n,k);
 }
 
-int small(int arr[],int n,int k){
-    if (k>n){
-        return -1;
-    }else{
-        for (int i=0;i<n;i++){
-            return ("%d",arr[k-1]);
-        }
-    }
-}
