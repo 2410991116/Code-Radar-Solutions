@@ -20,6 +20,6 @@ int main(){
     }  
 
     if (!peak){
-        printf("-1");
+        printf("-1\n");
     }
 }
