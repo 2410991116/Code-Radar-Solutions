@@ -11,4 +11,8 @@ int main(){
 
     int k;
     scanf("%d",&k);
+
+    for (int i=0;i<k;i++){
+        int temp=arr[size-1];
+    }
 }
