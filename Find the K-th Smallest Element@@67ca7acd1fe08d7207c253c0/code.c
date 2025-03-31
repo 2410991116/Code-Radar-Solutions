@@ -11,10 +11,10 @@ int kthSmallest(int arr[],int n,int k){
         }
     }
 
-    return kth(arr,n,k);
+    return small(arr,n,k);
 }
 
-int kth(int arr[],int n,int k){
+int small(int arr[],int n,int k){
     if (k>n){
         return -1;
     }else{
