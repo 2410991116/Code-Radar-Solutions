@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int selectionSort(char str[]){
     int n= strlen(str);
