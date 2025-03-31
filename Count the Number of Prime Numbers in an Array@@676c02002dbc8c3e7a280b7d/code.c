@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int prime(int a){
-    if(a<=1){
+    if (a<=1){
         return 0;
     }
     for (int i=2;i*i<=a;i++){
@@ -9,8 +9,9 @@ int prime(int a){
             return 0;
         }
     }
-    return 1;
+    return 0;
 }
+
 
 int main(){
     int size;
@@ -22,10 +23,10 @@ int main(){
     }
 
     int count=0;
+
     for (int i=0;i<size;i++){
-        if (prime(arr[i])){
-            count++;
+        if (prime(i)){
+            print("%d",arr[i]);
         }
     }
-    printf("%d",count);
 }
