@@ -12,13 +12,14 @@ int main(){
     int k;
     scanf("%d",&k);
 
-    for (int i=0;i<k;i++){
-        int temp=arr[0];
-        for (int j=0;j<size-1;j++){
-            arr[i]=arr[i+1];
+    for (int i = 0; i < k; i++) {
+        int temp = arr[n - 1]; 
+        for (int j = n - 1; j > 0; j--) {
+            arr[j] = arr[j - 1];
         }
-        arr[size-1]=temp;
+        arr[0] = temp; 
     }
+
 
     for (int i=0;i<size;i++){
         printf("%d ",arr[i]);
