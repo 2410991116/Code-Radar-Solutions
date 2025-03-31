@@ -18,8 +18,17 @@ int main(){
                 freq[j]=0;
             }
         }
-        
+        if (freq[i]!=0){
+            freq[i]=count;
+        }
     } 
+
+    max=freq[0];
+    for (int i=0;i<size;i++){
+        if (freq[i]>max){
+            printf("%d",arr[i]);
+        }
+    }
     
 
 
