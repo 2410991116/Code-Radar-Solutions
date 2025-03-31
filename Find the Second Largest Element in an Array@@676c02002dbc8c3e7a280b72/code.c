@@ -2,7 +2,7 @@
 
 int main() {
     int size;
-    printf("Enter the number of elements in the array: ");
+    
     scanf("%d", &size);
 
     if (size < 2) {
@@ -11,7 +11,7 @@ int main() {
     }
 
     int arr[size];
-    printf("Enter the elements of the array: ");
+    
     for (int i = 0; i < size; i++) {
         scanf("%d", &arr[i]);
     }
@@ -28,7 +28,7 @@ int main() {
     }
 
     if (secondLargest != -1) {
-        printf("The second largest element is: %d\n", secondLargest);
+        printf(" %d", secondLargest);
     } else {
         printf("-1\n"); // No second largest element found
     }
