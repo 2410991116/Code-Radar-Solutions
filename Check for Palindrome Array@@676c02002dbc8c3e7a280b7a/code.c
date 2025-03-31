@@ -21,6 +21,6 @@ int main(){
     if (palindrome(arr,size)){
         printf("YES");
     }else{
-        printf("NO";)
+        printf("NO");
     }
 }
