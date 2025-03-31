@@ -22,7 +22,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    bubble(arr,size);
+    int bubble(arr,size);
 
     if (size==1){
         printf("-1");
