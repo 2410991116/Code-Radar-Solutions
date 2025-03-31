@@ -35,9 +35,11 @@ int main(){
         }
     }
 
-    
+    if (count==0){
+        printf("-1");
+    }else{
         printf("%d",mux);
-    
+    }
     
 
 
