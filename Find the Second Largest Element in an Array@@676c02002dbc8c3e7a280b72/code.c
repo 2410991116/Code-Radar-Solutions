@@ -24,6 +24,6 @@ int main(){
     bubblesort(arr,size);
 
     for (int i=0;i<size;i++){
-        printf("%d",arr[size-1]);
+        printf("%d",arr[size-2]);
     }
 }
