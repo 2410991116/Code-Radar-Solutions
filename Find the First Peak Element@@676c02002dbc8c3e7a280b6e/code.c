@@ -19,7 +19,7 @@ int main(){
         }
     }
 
-    if (peak=0){
+    if (peak=-1){
         printf("-1");
     }
 
