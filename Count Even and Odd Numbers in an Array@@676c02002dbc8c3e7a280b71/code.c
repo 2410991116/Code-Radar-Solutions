@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int size,even=0,odd=0;
+    int size;
     scanf("%d",&size);
 
     int arr[size];
@@ -9,13 +9,15 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
+    int even=0,odd=0;
+
     for (int i=0;i<size;i++){
         if (arr[i]%2==0){
-            even+=1;
+            even++;
         }else{
-            odd+=1;
+            odd++;
         }
     }
-    printf("%d ",even);
-    printf("%d",odd);
+
+    printf("%d %d",even,odd);
 }
