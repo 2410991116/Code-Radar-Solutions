@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int selectionSort(char str[]){
+int selectionSort(char str[],int n){
     int n= strlen(str);
 
     for (int i=0;i<n-1;i++){
