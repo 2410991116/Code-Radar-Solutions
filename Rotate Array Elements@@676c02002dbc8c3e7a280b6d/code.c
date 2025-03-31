@@ -1,34 +1,23 @@
 #include <stdio.h>
 
-void rotateArray(int arr[], int n, int k) {
-    k = k % n; 
-    for (int i = 0; i < k; i++) {
-        int last = arr[n - 1];
-        for (int j = n - 1; j > 0; j--) {
-            arr[j] = arr[j - 1];
-        }
-        arr[0] = last;
-    }
-}
+int main(){
+    int size;
+    scanf("%d",&size);
 
-int main() {
-    int arr[] = {1, 2, 3, 4, 5};
-    int n = sizeof(arr) / sizeof(arr[0]);
-    int k = 2; // Rotate by 2 positions
-    
-    
-    for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
+    int arr[size];
+    for (int i=0;i<size;i++){
+        scanf("%d",&arr[i]);
     }
-    printf("\n");
-    
-    rotateArray(arr, n, k);
-    
-    
-    for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
+
+    for (int i=0;i<k;i++){
+        int temp=arr[0];
+        for (int j=0;j<n-1;j++){
+            arr[i]=arr[i+1];
+        }
+        arr[n-1]=temp;
     }
-    printf("\n");
-    
-    return 0;
+
+    for (int i=0;i<n;i++){
+        printf("%d ",arr[i]);
+    }
 }
