@@ -49,11 +49,8 @@ int main() {
     bubblesort(arr, size);
 
     
-    if (size >= 2) {
-        printf("%d\n", arr[size - 2]); 
-    } else {
-        printf("-1\n"); 
-    }
+    printf("%d\n", arr[size - 2]);
+
 
     return 0;
 }
