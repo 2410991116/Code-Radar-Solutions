@@ -8,14 +8,13 @@ int main(){
     for (int i=0;i<size;i++){
         scanf("%d",&arr[i]);
     }
-    int totalsum=0;
 
     for (int i=0;i<size;i++){
-        int num=arr[i];
-        while (num>0){
-            totalsum+=num%10;
-            num/=10;
-            printf("%d ",totalsum);
+        int sum=0;
+        while (arr[i]>0){
+            sum+=arr[i]%10;
+            arr[i]/=10;
         }
+        printf('%d',sum);
     }
-}    
+}
