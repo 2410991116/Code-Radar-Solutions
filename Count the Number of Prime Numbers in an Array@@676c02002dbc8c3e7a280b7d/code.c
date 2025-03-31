@@ -26,7 +26,7 @@ int main(){
 
     for (int i=0;i<size;i++){
         if (prime(i)){
-            print("%d",arr[i]);
+            printf("%d",arr[i]);
         }
     }
 }
