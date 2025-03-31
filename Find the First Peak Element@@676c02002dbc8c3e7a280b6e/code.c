@@ -2,25 +2,30 @@
 
 int main() {
     int size;
+    printf("Enter the number of elements in the array: ");
     scanf("%d", &size);
 
     int arr[size];
+    printf("Enter the elements of the array: ");
     for (int i = 0; i < size; i++) {
         scanf("%d", &arr[i]);
     }
 
-    int peak = 0; // Flag to track if a peak element is found
+    // Initialize a flag to track if a peak is found
+    int peakFound = 0;
 
+    // Traverse the array to find the first peak element
     for (int i = 0; i < size; i++) {
-        if ((i == 0 || arr[i] >= arr[i - 1]) && 
-            (i == size - 1 || arr[i] >= arr[i + 1])) {
-            printf("%d\n", arr[i]); // Print the first peak element
-            peak = 1; // Update flag since a peak is found
-            break; // Exit the loop
+        if ((i == 0 || arr[i] > arr[i - 1]) &&
+            (i == size - 1 || arr[i] > arr[i + 1])) {
+            printf("The first peak element is: %d\n", arr[i]);
+            peakFound = 1; // Mark that a peak has been found
+            break; // Exit loop after finding the first peak
         }
     }
 
-    if (!peak) { // If no peak element was found
+    // If no peak element is found, print -1
+    if (!peakFound) {
         printf("-1\n");
     }
 
