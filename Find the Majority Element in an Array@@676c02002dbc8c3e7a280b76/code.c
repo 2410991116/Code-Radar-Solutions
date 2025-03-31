@@ -35,10 +35,10 @@ int main(){
         }
     }
 
-    if (count==0){
-        printf("-1");
-    }else{
+    if (count==1){
         printf("%d",mux);
+    }else{
+        printf("-1");
     }
     
 
