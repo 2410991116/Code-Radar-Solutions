@@ -13,7 +13,7 @@ int isprime(int a){
 }
 
 int printPrimeInRange(int a,int b){
-    for (int a<=i;i<=b;i++){
+    for (int i>=a; i<=b;i++){
         if (isprime(i)){
             printf("%d ",i);
         }
