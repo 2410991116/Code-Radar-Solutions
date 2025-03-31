@@ -33,6 +33,7 @@ int main(){
            max=freq[i];
            mux=arr[i];
            count=1;
+           break;
         }
     }
 
