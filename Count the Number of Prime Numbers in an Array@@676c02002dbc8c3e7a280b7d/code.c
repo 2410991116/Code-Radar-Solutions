@@ -9,7 +9,7 @@ int prime(int a){
             return 0;
         }
     }
-    return 0;
+    return 1;
 }
 
 
