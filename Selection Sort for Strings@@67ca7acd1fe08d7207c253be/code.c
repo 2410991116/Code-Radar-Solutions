@@ -4,10 +4,10 @@
 void selectionSort(char str[][100], int n) {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
-            if (strcmp(arr[i], arr[j]) > 0) {
+            if (strcmp(str[i], str[j]) > 0) {
                 char temp[100];
-                strcpy(temp, arr[i]);       
-                strcpy(str[i], arr[j]);
+                strcpy(temp, str[i]);       
+                strcpy(str[i], str[j]);
                 strcpy(str[j], temp);
 
             }
