@@ -15,7 +15,7 @@ int kthSmallest(int arr[],int n,int k){
         return -1;
     }else{
         for (int i=0;i<n+1;i++){
-            return ("%d",arr[i]);
+            return ("%d",arr[k]);
         }
     }
 }
