@@ -30,16 +30,12 @@ int main(){
 
     for (int i=0;i<size;i++){
         if (freq[i]>max){
-           max=freq[i];
            mux=arr[i];
            count=1;
-           break;
         }
     }
 
-    if (!count){
-        printf("-1");
-    }else{
+    
         printf("%d",mux);
     }
     
