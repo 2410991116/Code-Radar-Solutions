@@ -15,6 +15,6 @@ int main(){
             sum+=arr[i]%10;
             arr[i]/=10;
         }
-        printf("%d",sum);
+        printf("%d ",sum);
     }
 }
