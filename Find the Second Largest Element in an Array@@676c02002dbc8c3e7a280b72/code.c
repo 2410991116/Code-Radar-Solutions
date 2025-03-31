@@ -31,7 +31,7 @@ int main(){
     int second=-1;
     for (int i=size-2;i>=0;i--){
         if (arr[i]!=largest){
-            arr[i]=second;
+            second=arr[i];
             break;
         }
     }
