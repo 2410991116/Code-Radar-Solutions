@@ -1,6 +1,6 @@
 #include <stdio.h>.
 
-int findOccurrence(int arr,int n,char mode,int t ){
+int findOccurrence(int arr[],int n,char mode,int t ){
     for (int i=0;i<n-1;i++){
         for (int j=0;j<n-i-1;j++){
             if (arr[j]>arr[j+1]){
