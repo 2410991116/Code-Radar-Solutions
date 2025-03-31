@@ -11,3 +11,19 @@ int bubblesort(int arr[],int n){
         }
     }
 }
+
+int main(){
+    int size;
+    scanf("%d",&size);
+
+    int arr[size];
+    for (int i=0;i<size;i++){
+        scanf("%d",&arr[i]);
+    }
+
+    bubblesort(arr,size);
+
+    for (int i=0;i<size;i++){
+        printf("%d",arr[size-1]);
+    }
+}
