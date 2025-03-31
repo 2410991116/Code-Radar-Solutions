@@ -7,5 +7,5 @@ int fibonacciSeries(int a){
     if (a==1){
         return 1;
     }
-    return fibonacciSeries(a)+fibonacciSeries(a-1);
+    return fibonacciSeries(a-1)+fibonacciSeries(a-2);
 }
