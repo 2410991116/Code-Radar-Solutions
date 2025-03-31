@@ -1,4 +1,4 @@
-#include <stdio.h>.
+#include <stdio.h>
 
 int findOccurrence(int arr[],int n,char mode,int t ){
     for (int i=0;i<n-1;i++){
