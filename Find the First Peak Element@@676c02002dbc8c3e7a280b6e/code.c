@@ -12,7 +12,7 @@ int main(){
     int count=0;
 
     for (int i=0;i<size;i++){
-        if (i=0 || arr[i]>arr[i-1])&&(i=size-1 || arr[i]>arr[i+1]){
+        if ((i=0 || arr[i]>arr[i-1])&&(i=size-1 || arr[i]>arr[i+1])){
             count++;
             break;
         }
