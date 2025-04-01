@@ -33,8 +33,8 @@ int main(){
 
     if (second==-1){
         printf("-1");
-    }else[
+    }else{
         printf("%d",second);
-    ]
+    }
 
 }
