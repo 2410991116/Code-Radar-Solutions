@@ -9,18 +9,18 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    int found=0;
+    int count=0;
 
     for (int i=0;i<size-1;i++){
         if (arr[i]>arr[i+1]){
-            found=1;
+            count++;
             break;
         }
     }
-
-    if (found){
-        printf("Not Sorted");
-    }else{
+     
+    if (!count){
         printf("Sorted");
+    }else{
+        printf("Not Sorted");
     }
 }
