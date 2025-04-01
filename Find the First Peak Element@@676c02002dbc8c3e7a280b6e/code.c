@@ -9,17 +9,19 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    int peak=0;
-
     for (int i=0;i<size;i++){
-        if ((i==0 || arr[i]>arr[i-1])&&(i==size-1 || arr[i]>arr[i+1])){
-            printf("%d",arr[i]);
-            peak=1;
+        if (i=0 || arr[i]>arr[i-1])&&(i=size-1 || arr[i]>arr[i+1]){
+            count++;
             break;
         }
-    }  
 
-    if (!peak){
-        printf("-1\n");
+    }
+
+    for (int i=0;i<size;i++){
+    if (!count){
+        printf("-1");
+    }else{
+        printf("%d",arr[i]);
+    }    
     }
 }
