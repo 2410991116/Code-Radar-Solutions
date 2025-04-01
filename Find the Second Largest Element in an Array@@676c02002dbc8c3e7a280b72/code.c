@@ -29,6 +29,7 @@ int main(){
     for (int i=size-2;i>=0;i--){
         if (arr[i]!=largest);
         second=arr[i];
+        break;
     }
 
     if (second==-1){
