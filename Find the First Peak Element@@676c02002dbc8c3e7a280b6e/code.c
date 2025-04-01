@@ -19,11 +19,11 @@ int main(){
 
     }
 
-    for (int i=0;i<size;i++){
+
     if (!count){
         printf("-1");
     }else{
-        printf("%d",arr[i]);
+        printf("%d",count);
     }    
     }
 }
