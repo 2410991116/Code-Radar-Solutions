@@ -29,7 +29,7 @@ int main(){
 
 
     for (int i=0;i<size;i++){
-        if (freq[i]>max){
+        if (freq[i]>=max){
            mux=arr[i];
            count=1;
         }
