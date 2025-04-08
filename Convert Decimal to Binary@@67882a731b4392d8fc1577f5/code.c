@@ -6,7 +6,7 @@ void decimalToBinary(unsigned int num) {
     int index = 0;
 
     // Extract bits using bitwise operations
-    while (num > 0) {
+    while (num >=0) {
         binary[index++] = num & 1;  // Extract the least significant bit
         num = num >> 1;            // Right shift to move to the next bit
     }
