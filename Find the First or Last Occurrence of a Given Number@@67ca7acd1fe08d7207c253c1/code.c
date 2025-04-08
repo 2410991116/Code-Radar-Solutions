@@ -10,6 +10,10 @@ int findOccurrence(int arr[],int n,char mode,int t ){
             }
         }
     }
+
+    if (n <= 0) {
+        return -1;
+    } 
     if (mode == 'F') {
         for (int i = 0; i < n; i++) {
             if (arr[i] == t) {
