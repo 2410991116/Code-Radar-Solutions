@@ -39,7 +39,7 @@ int main(){
 
     
     if (maxCount > 1) {
-        printf("-1\n");
+        printf("-1");
     } else {
         printf("%d", maxElement);
     }
