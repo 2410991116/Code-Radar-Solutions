@@ -1,33 +1,30 @@
 #include <stdio.h>
 
-// Function to search in a rotated sorted array
 int searchInRotatedArray(int arr[], int n, int k) {
     int left = 0, right = n - 1;
 
     while (left <= right) {
-        int mid = left + (right - left) / 2; // Prevent overflow for large arrays
+        int mid = left + (right - left) / 2; 
 
-        // Check if mid element is the target
         if (arr[mid] == k) {
             return mid;
         }
 
-        // Determine which half is sorted
-        if (arr[left] <= arr[mid]) { // Left half is sorted
+        if (arr[left] <= arr[mid]) { 
             if (k >= arr[left] && k < arr[mid]) {
-                right = mid - 1; // Search in the left sorted half
+                right = mid - 1; 
             } else {
-                left = mid + 1; // Search in the right half
+                left = mid + 1;
             }
-        } else { // Right half is sorted
+        } else { 
             if (k > arr[mid] && k <= arr[right]) {
-                left = mid + 1; // Search in the right sorted half
+                left = mid + 1;
             } else {
-                right = mid - 1; // Search in the left half
+                right = mid - 1;
             }
         }
     }
 
-    return -1; // Target not found
+    return -1;
 }
 
