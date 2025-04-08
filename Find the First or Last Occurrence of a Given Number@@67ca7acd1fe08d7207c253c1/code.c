@@ -16,11 +16,7 @@ void bubbleSort(int arr[], int n) {
 int findOccurrence(int arr[], int n, char mode, int t) {    
     bubbleSort(arr, n);
 
-    printf("Sorted array: ");
-    for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
+   
 
     
 
