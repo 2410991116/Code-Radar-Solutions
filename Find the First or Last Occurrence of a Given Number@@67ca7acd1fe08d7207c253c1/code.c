@@ -14,10 +14,7 @@ int bubbleSort(int arr[],int n ){
     
 }
 
-int findOccurrence(int arr[], int n, char mode, int t) {
-    if (n <= 0){ 
-        return -1;
-    }    
+int findOccurrence(int arr[], int n, char mode, int t) {   
     
     bubbleSort(arr, n);
     
