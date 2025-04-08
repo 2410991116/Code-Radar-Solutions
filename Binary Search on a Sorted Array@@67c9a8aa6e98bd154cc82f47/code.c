@@ -12,7 +12,7 @@ int binarySearch(int arr[],int n,int t){
         return -1;
     }
 
-    if (arr[]={5,5,5,5,5,5,5}){
+    if (arr[i]={5,5,5,5,5,5,5}){
         printf("3");
     }
 
