@@ -9,7 +9,7 @@ int main() {
     unsigned int bit_value = (num >> n) & 1;
 
     // Print the result
-    printf("%u\n", n, bit_value);
+    printf("%u\n",  bit_value);
 
     return 0;
 }
