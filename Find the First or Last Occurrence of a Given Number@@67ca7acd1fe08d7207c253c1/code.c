@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Function to perform Bubble Sort
+
 void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
@@ -13,13 +13,19 @@ void bubbleSort(int arr[], int n) {
     }
 }
 
-
 int findOccurrence(int arr[], int n, char mode, int t) {    
-    bubbleSort(arr, n); 
+    bubbleSort(arr, n);
 
-    if (t < 0 || t >= n) {
-        return -1; 
+    printf("Sorted array: ");
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
     }
+    printf("\n");
+
+    if (mode != 'F' && mode != 'L') {
+        return -1;
+    }
+
 
     if (mode == 'F') {
         for (int i = 0; i < n; i++) {
@@ -27,15 +33,15 @@ int findOccurrence(int arr[], int n, char mode, int t) {
                 return i; 
             }
         }
-    } else if (mode == 'L') {
+    }
+    else if (mode == 'L') {
         for (int i = n - 1; i >= 0; i--) {
             if (arr[i] == t) {
                 return i;
             }
         }
-    } else {
-        return -1; 
     }
+
     return -1; 
 }
 
