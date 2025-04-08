@@ -2,7 +2,7 @@
 
 void decimalToBinary(unsigned int num) {
     if (num == 0) {
-        return 0;
+        printf("0");
     }
 
     // Initialize an array to store binary representation
