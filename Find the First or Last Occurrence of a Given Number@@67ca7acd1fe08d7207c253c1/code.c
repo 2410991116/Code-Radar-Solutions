@@ -22,10 +22,7 @@ int findOccurrence(int arr[], int n, char mode, int t) {
     }
     printf("\n");
 
-    if (mode != 'F' && mode != 'L') {
-        return -1;
-    }
-
+    
 
     if (mode == 'F') {
         for (int i = 0; i < n; i++) {
@@ -41,6 +38,11 @@ int findOccurrence(int arr[], int n, char mode, int t) {
             }
         }
     }
+
+    if (mode != 'F' && mode != 'L') {
+        return -1;
+    }
+
 
     return -1; 
 }
