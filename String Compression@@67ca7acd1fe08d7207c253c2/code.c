@@ -2,7 +2,7 @@
 #include <string.h>
 
 // Function to compress the string
-void compressString(char str[]) {
+void compressString(char str[],int n) {
     int n = strlen(str);
     char compressed[2 * n]; // To ensure enough space for the compressed string
     int index = 0;          // Index for the compressed string
