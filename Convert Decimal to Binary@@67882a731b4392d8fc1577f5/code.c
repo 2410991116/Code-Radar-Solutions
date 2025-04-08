@@ -2,8 +2,7 @@
 
 void decimalToBinary(unsigned int num) {
     if (num == 0) {
-
-        return;
+        return 0;
     }
 
     // Initialize an array to store binary representation
@@ -17,7 +16,7 @@ void decimalToBinary(unsigned int num) {
     }
 
     // Print binary representation in reverse order
-
+   
     for (int i = index - 1; i >= 0; i--) {
         printf("%d", binary[i]);
     }
