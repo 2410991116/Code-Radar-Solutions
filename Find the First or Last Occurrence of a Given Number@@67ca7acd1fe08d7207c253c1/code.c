@@ -26,5 +26,19 @@ int findOccurrence(int arr[], int n, char mode, int target) {
         return -1;
     }     
     
-    return binarySearch(arr, 0, n - 1, target, mode); 
+    if (mode == 'F') {
+        for (int i = 0; i < n; i++) {
+            if (arr[i] == t) {
+                return i; 
+            }
+        }
+    }
+    else if (mode == 'L') {
+        for (int i = n - 1; i >= 0; i--) {
+            if (arr[i] == t) {
+                return i;
+            }
+        }
+    }
+
 }
