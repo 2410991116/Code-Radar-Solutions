@@ -20,7 +20,7 @@ int findOccurrence(int arr[], int n, char mode, int t) {
     
     
 
-    if (t<0 && t>n){
+    if (t<0  || t>n){
         return -1;
     }
     
