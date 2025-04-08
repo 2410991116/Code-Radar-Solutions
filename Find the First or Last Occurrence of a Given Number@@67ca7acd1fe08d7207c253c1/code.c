@@ -35,10 +35,7 @@ int findOccurrence(int arr[], int n, char mode, int t) {
         }
     }
 
-    if (mode != 'F' && mode != 'L') {
-        return -1;
-    }
-
+    
 
     return -1; 
 }
