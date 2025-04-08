@@ -24,6 +24,7 @@ int findOccurrence(int arr[], int n, char mode, int t) {
         for (int i = 0; i < n; i++) {
             if (arr[i] == t) {
                 return i; 
+                break;
             }
         }
     }
