@@ -21,9 +21,11 @@ int findOccurrence(int arr[], int n, char mode, int t) {
     
     bubbleSort(arr, n);
     
-    if (mode != 'F' && mode != 'L'){
+    
+
+    if {t<0 && t>n}{
         return -1;
-    }     
+    }
     
     if (mode == 'F') {
         for (int i = 0; i < n; i++) {
