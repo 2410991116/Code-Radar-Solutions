@@ -8,7 +8,7 @@ int main() {
     unsigned int flipped_num = ~num;
 
     // Print the result
-    printf("%u\n", flipped_num);
+    printf("%d\n", flipped_num);
 
     return 0;
 }
